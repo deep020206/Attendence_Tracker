@@ -19,7 +19,7 @@ class AttendanceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Attendance Manager',
+      title: 'AttendEase',
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
@@ -307,7 +307,7 @@ ${absentRolls.isEmpty ? 'None' : absentRolls.join(', ')}''';
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  'Attendance Manager',
+                  'AttendEase',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -413,7 +413,7 @@ ${absentRolls.isEmpty ? 'None' : absentRolls.join(', ')}''';
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Attendance Manager',
+          'AttendEase',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 22,

@@ -1,4 +1,4 @@
-# 📝 Attendance Tracker
+# 📝 AttendEase
 
 A modern, intuitive Flutter web application for managing student attendance efficiently.
 
